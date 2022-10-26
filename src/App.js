@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import React from "react";
+import LinkButton from "./component/LinkButton";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <LinkButton
+      name= "Zuri"
+      link="https://training.zuri.team/"
+      />
+
+<LinkButton
+      name= "Zuri books"
+      link="http://books.zuri.team"
+      />
+
+<LinkButton
+      name= "python for beginners"
+      link="https://books.zuri.team"
+      />
+
+<LinkButton
+      name= "Zuri coders"
+      link="https://background.zuri.team"
+      />
+
+<LinkButton
+      name= "Zuri free design book"
+      link="https://training.zuri.team/"
+      />
     </div>
   );
+
 }
+
 
 export default App;
