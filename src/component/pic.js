@@ -4,7 +4,8 @@ const ProfilePic = props => {
     const {
         name,
         picture,
-        alt
+        alt,
+        id
     } = props 
 
     const myStyles = ({
@@ -25,7 +26,7 @@ const ProfilePic = props => {
     return (
         <div>
             <h1 style={myStyles.title}>{name}</h1>
-            <img style={myStyles.pic} alt={alt} src={picture} />
+            <img style={myStyles.pic} id={id} alt={alt} src={picture} />
         </div>
     )
 }

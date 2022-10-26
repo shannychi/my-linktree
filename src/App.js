@@ -3,6 +3,7 @@ import LinkButton from "./component/LinkButton";
 import TextBanner from "./component/TextBanner";
 import Pic from "./component/pic";
 import Picture from "./IMG_0036.JPG"
+import Slack from "./component/slack"
 import './App.css';
 
 function App() {
@@ -10,11 +11,18 @@ function App() {
     <div  style={{ textAlign: "center"}}>
          <Pic
           picture={Picture}
+          id="profile__img"
          />
 
          <TextBanner
          title="@ShanelChii"
+         id="twitter"
          />
+          
+          <Slack
+          name="chiSharon"
+          id="slack"
+          />
 
       <LinkButton
       name= "Zuri"

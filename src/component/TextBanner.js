@@ -27,8 +27,8 @@ const TextBanner = props => {
 
 
     return (
-        <div style={myStyles.box}>
-            <h1 style={myStyles.title}>{title}</h1>
+        <div style={myStyles.box}  >
+            <h1 style={myStyles.title} id={id}>{title}</h1>
             <p style={myStyles.headline}>{text}</p>
         </div>
     )
