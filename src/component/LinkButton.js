@@ -29,7 +29,7 @@ const LinkButton = props => {
             fontFamily: "Monaco",
             width: "15rem",
             padding: "10px 10px",
-            fontSize:"20px",
+            fontSize:"18px",
             cursor: "pointer",
             backgroundColor: "#fff",
             border: "none",
@@ -37,6 +37,7 @@ const LinkButton = props => {
             color: "blue"
             
         },  
+       
 
 
         text: {
