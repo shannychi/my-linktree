@@ -3,7 +3,8 @@ import React from 'react'
 const TextBanner = props => {
     const {
         title,
-        text
+        text,
+        id
     } = props
 
     const myStyles = ({
