@@ -58,7 +58,7 @@ const LinkButton = props => {
         <div style={myStyles.myMargin}>
             <h3 style={myStyles.btnText}>{title}</h3>
             <h1 style={myStyles.text}>{text}</h1>
-            <a  href={link} ref_id={ref_id} class="btn btn-danger btn-lg btn-block"  id={id} target="blank" type="submit"  style={myStyles.btn}>
+            <a  href={link} ref_id={ref_id} class="btn btn"  id={id} target="blank" type="submit"  style={myStyles.btn}>
             {name}
             </a>
         </div>
