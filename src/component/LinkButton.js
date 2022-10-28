@@ -14,7 +14,8 @@ const LinkButton = props => {
     const myStyles = ({
 
         myMargin: {
-            marginBottom: "20px"
+            marginBottom: "40px",
+           
         },
 
         btnText: {
@@ -25,17 +26,21 @@ const LinkButton = props => {
             
         },
         btn: {
+            
             boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 15px 20px 0 rgba(0, 0, 0, 0.1)",
             fontFamily: "Monaco",
-            width: "15rem",
-            padding: "10px 10px",
+            width: "115px",
+            padding: "10px",
             fontSize:"18px",
             cursor: "pointer",
-            backgroundColor: "#fff",
-            border: "none",
+            backgroundColor: "white",
+            border: "1px solid white",
             borderRaduis: "5px",
-            color: "blue"
-            
+            color: "blue",
+            linkHeight: "25px",
+            fontWeight:"bold",
+            textAlign: "center"
+
         },  
        
 
@@ -53,8 +58,8 @@ const LinkButton = props => {
         <div style={myStyles.myMargin}>
             <h3 style={myStyles.btnText}>{title}</h3>
             <h1 style={myStyles.text}>{text}</h1>
-            <a  href={link}>
-            <button style={myStyles.btn} ref_id={ref_id} id={id} class="btn btn-danger btn-lg btn-block" target="blank" type="submit">{name}</button>
+            <a  href={link} ref_id={ref_id} class="btn btn-danger btn-lg btn-block"  id={id} target="blank" type="submit"  style={myStyles.btn}>
+            {name}
             </a>
         </div>
     )

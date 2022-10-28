@@ -56,7 +56,7 @@ function App() {
 <LinkButton
       name= "Zuri free design book"
       link="https://training.zuri.team/"
-      text="Zuri offers highly free tech design book"
+      text="Zuri offers highly free tech design books where you can learn every thing about design and is beginers friendly"
       id="book__design"
       />
     </div>
