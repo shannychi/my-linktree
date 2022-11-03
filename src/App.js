@@ -67,7 +67,7 @@ function App() {
 
       <LinkButton
       name="Contact Me"
-      link="https://willowy-brigadeiros-5fe10f.netlify.app/"
+      link="https://legendary-tartufo-60fa04.netlify.app/"
       id="contact"
       />
     </div>
