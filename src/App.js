@@ -2,8 +2,8 @@ import React from "react";
 import LinkButton from "./component/LinkButton";
 import TextBanner from "./component/TextBanner";
 import Pic from "./component/pic";
-import Picture from "./IMG_0036.JPG"
-import Slack from "./component/slack"
+import Picture from "./IMG_0036.JPG";
+import Slack from "./component/slack";
 import './App.css';
 
 function App() {
@@ -23,9 +23,13 @@ function App() {
           name="chiSharon"
           id="slack"
           />
+          <LinkButton
+          name="Twitter Link"
+          link="https://twitter.com/ShanelChii"
+          />
 
       <LinkButton
-      name= "Zuri"
+      name= "Zuri team"
       link="https://training.zuri.team/"
       id="btn__zuri"
       />
@@ -61,6 +65,7 @@ function App() {
       />
     </div>
   );
+
 
 }
 
