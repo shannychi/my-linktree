@@ -29,7 +29,7 @@ const LinkButton = props => {
             
             boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 15px 20px 0 rgba(0, 0, 0, 0.1)",
             fontFamily: "Monaco",
-            width: "115px",
+            width: "100%",
             padding: "10px",
             fontSize:"18px",
             cursor: "pointer",

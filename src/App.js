@@ -26,6 +26,7 @@ function App() {
           <LinkButton
           name="Twitter Link"
           link="https://twitter.com/ShanelChii"
+          id="twitter"
           />
 
       <LinkButton
@@ -51,7 +52,7 @@ function App() {
       />
 
 <LinkButton
-      name= "Zuri coders"
+      name= "Zuri background coders check"
       link="https://background.zuri.team"
       text="Zuri train and connect people from around the world to compaines that are hiring."
       id="pitch"
@@ -62,6 +63,12 @@ function App() {
       link="https://training.zuri.team/"
       text="Zuri offers highly free tech design books where you can learn every thing about design and is beginers friendly"
       id="book__design"
+      />
+
+      <LinkButton
+      name="Contact Me"
+      link="https://willowy-brigadeiros-5fe10f.netlify.app/"
+      id="contact"
       />
     </div>
   );
